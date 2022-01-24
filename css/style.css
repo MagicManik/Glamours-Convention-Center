@@ -1,3 +1,19 @@
+.package {
+    padding-top: 80px;
+}
+
+.highlight-pack-i-style {
+    size: 20px;
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.highlight-pack {
+    background-color: #080808dc;
+    border-radius: 26px;
+}
+
 .plan-btn {
     background-color: #f496d234;
 }
@@ -8,21 +24,30 @@
     border-radius: 15px;
   background-color: rgba(82, 67, 194, 0.1037);
 }
-.highlight-pack-i-style {
-    size: 20px;
-    color: white;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.075);
-}
 
-.package {
-    padding-top: 80px;
-}
-
-.highlight-pack {
-    background-color: #3F87F5;
-    border-radius: 26px;
-}
 .hot {
     background-color:rgba(255, 78, 78, 1);
+}
+
+.frequently-my {
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+/* Toast */
+
+.position {
+    position: relative;
+    top: -30px;
+    margin-bottom: 5px;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.text-purple {
+    color: rgb(240, 131, 240);
 }
