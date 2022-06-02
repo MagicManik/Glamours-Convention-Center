@@ -81,19 +81,13 @@ h3 {
 
 
 @media screen and (max-width: 576px) {
+
+    .package {
+        padding-top: 0;
+    }
+
     .highlight-pack {
         width: 90%;
         margin: 50px auto;
     }
-
-
-    /* .highlight-pack h5 {
-        background-color: #fe4e4e;
-        padding: 3px 10px;
-        position: absolute;
-        top: -15px;
-        right: 8px;
-        border-radius: 20px;
-        font-size: 17px;
-    } */
 }
