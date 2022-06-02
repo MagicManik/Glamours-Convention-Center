@@ -2,31 +2,70 @@
     padding-top: 80px;
 }
 
-.highlight-pack-i-style {
-    size: 20px;
-    color: white;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.075);
+.package h1,
+h3 {
+    color: #211e4f;
+    font-weight: bold;
 }
 
 .highlight-pack {
-    background-color: #00BFA6;
-    border-radius: 26px;
+    background-color: #3f87f5;
+    border-radius: 30px;
 }
 
+
+.highlight-pack h5 {
+    background-color: #fe4e4e;
+    padding: 3px 10px;
+    position: absolute;
+    top: -15px;
+    right: 8px;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+
+.highlight-pack button {
+    color: #3f87f5;
+    font-weight: 600;
+    padding: 12px 0;
+}
+
+
+.highlight-pack button:hover {
+    color: #5243c2;
+}
+
+
+.highlight-pack-i-style {
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.075);
+    padding: 10px !important;
+}
+
+
 .plan-btn {
-    background-color: #00BFA6;
+    background-color: #fef5fa;
+    color: #3f87f5;
+    font-weight: 600;
+}
+
+.plan-btn:hover {
+    color: #5243c2;
 }
 
 .i-style {
-    size: 20px;
-    color: #00BFA6;
-    border-radius: 15px;
-  background-color: rgba(82, 67, 194, 0.1037);
+    font-size: 14px;
+    padding: 10px !important;
+    color: #5243c2;
+    border-radius: 10px;
+    background-color: #edecf9;
 }
 
 .hot {
-    background-color:rgb(247, 111, 21);
+    background-color: rgb(247, 111, 21);
 }
 
 .frequently-my {
@@ -34,7 +73,27 @@
     margin-bottom: 50px;
 
 }
+
 /* Toast */
 .toast-i {
     color: #00BFA6;
+}
+
+
+@media screen and (max-width: 576px) {
+    .highlight-pack {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+
+    /* .highlight-pack h5 {
+        background-color: #fe4e4e;
+        padding: 3px 10px;
+        position: absolute;
+        top: -15px;
+        right: 8px;
+        border-radius: 20px;
+        font-size: 17px;
+    } */
 }
