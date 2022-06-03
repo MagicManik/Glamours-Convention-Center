@@ -3,7 +3,8 @@
 }
 
 .package h1,
-h3 {
+h3,
+.app-title {
     color: #211e4f;
     font-weight: bold;
 }
